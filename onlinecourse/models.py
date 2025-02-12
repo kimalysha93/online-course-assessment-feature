@@ -130,7 +130,6 @@ class Choice(models.Model):
     content = models.CharField(max_length=200)
     is_correct = models.BooleanField(default=False)
 
-
 # One enrollment could have multiple submission
 # One submission could have multiple choices
 # One choice could belong to multiple submissions
